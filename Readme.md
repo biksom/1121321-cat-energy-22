@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
-* Студент: [Sergey Golovin](https://up.htmlacademy.ru/adaptive/22/user/1121321).
-* Наставник: `Неизвестно`.
+- Студент: [Sergey Golovin](https://up.htmlacademy.ru/adaptive/22/user/1121321).
+- Наставник: Алекандр Лесухин.
 
 ---
 
