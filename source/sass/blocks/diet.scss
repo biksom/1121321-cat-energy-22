@@ -1,0 +1,85 @@
+.diet__slim {
+  background-color: $basic-grey;
+  margin-bottom: 20px;
+}
+
+.diet__cat-slim,
+.diet__cat-mass {
+  padding-top: 24px;
+}
+
+.diet__cat-slim-title {
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.diet__cat-slim-catalog{
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.diet__cat-slim-desc {
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $specia-dark-grey;
+
+}
+
+.diet__mass {
+  background-color: $basic-grey;
+}
+
+.diet__cat-mass-title {
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.diet__cat-mass-catalog {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.diet__cat-mass-desc {
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $specia-dark-grey;
+
+}
+
+.principle__title{
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  color: $basic-black;
+}
+
+.principle__item{
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $specia-dark-grey;
+}
