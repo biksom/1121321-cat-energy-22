@@ -1,0 +1,47 @@
+.example {
+  background-color: $light-grey;
+}
+
+.example__title {
+  font-family: "Oswald";
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  color: $basic-black;
+  padding-top: 27px;
+  padding-bottom: 33px;
+}
+
+.example__desc {
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $specia-dark-grey;
+  margin: 0;
+  padding: 0;
+}
+
+.example__item{
+  font-size: 24px;
+  line-height: 24px;
+  color: $basic-black;
+}
+
+.example__description{
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: $specia-dark-grey;
+}
+
+.example__subtitle{
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $basic-black;
+}

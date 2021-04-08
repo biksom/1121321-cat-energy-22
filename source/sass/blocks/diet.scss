@@ -1,0 +1,59 @@
+.diet__slim {
+  background-color: $basic-grey;
+  margin-bottom: 20px;
+}
+
+.diet__cat-slim,
+.diet__cat-mass {
+  padding-top: 24px;
+}
+
+.diet__cat-slim-title {
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.diet__cat-slim-catalog{
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.diet__cat-slim-desc {
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $specia-dark-grey;
+
+}
+
+.diet__mass {
+  background-color: $basic-grey;
+}
+
+.diet__cat-mass-title {
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.diet__cat-mass-catalog {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.diet__cat-mass-desc {
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $specia-dark-grey;
+}
+

@@ -1,1 +1,13 @@
-// Начните писать стили здесь
+// Global
+
+@import "global/variables.scss";
+
+// Bloks
+@import "blocks/page-header.scss";
+@import "blocks/feeding.scss";
+@import "blocks/diet.scss";
+@import "blocks/example.scss";
+@import "blocks/cooperation.scss";
+@import "blocks/main-footer.scss";
+@import "blocks/visually-hidden";
+@import "blocks/principle.scss"
