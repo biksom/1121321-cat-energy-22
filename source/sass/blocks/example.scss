@@ -3,7 +3,7 @@
 }
 
 .example__title {
-  font-family: Oswald;
+  font-family: "Oswald";
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
@@ -13,7 +13,7 @@
 }
 
 .example__desc {
-  font-family: Arial;
+  font-family: "Arial";
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
@@ -23,15 +23,13 @@
 }
 
 .example__item{
-  font-family: Oswald;
-  font-weight: normal;
   font-size: 24px;
   line-height: 24px;
   color: $basic-black;
 }
 
 .example__description{
-  font-family: Arial;
+  font-family: "Arial";
   font-weight: normal;
   font-size: 12px;
   line-height: 12px;
@@ -39,7 +37,8 @@
 }
 
 .example__subtitle{
-  font-family: Oswald;
+  font-family: "Oswald";
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;

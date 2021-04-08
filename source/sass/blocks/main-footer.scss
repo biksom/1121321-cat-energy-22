@@ -1,16 +1,11 @@
-.cooperation__title {
-  font-family: Oswald;
+.main-footer__bottom{
+  background-color: $basic-grey;
+}
+
+.main-footer__link{
+  font-family: Arial;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  text-transform: uppercase;
-  color: $basic-light-black;
-}
-
-.cooperation__adress {
-  font-family: Arial;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
   color: $specia-dark-grey;
 }
