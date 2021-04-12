@@ -1,17 +1,35 @@
-  $basic-black: #000000;
-  $basic-light-black: #111111;
+$basic-black: #000000;
+$basic-light-black: #111111;
 
-  $basic-dark: #222222;
+$basic-dark: #222222;
 
-  $basic-green: #68b738;
-  $green: rgba(104, 183, 56, 0.85);
+$basic-green: #68b738;
+$green: rgba(104, 183, 56, 0.85);
 
-  $basic-grey: #f2f2f2;
-  $special-dark-grey: #444444;
-  $light-grey: #eaeaea;
+$basic-grey: #f2f2f2;
+$special-dark-grey: #444444;
+$light-grey: #eaeaea;
 
-  $basic-white: #ffffff;
+$basic-white: #ffffff;
 
+$sec-font: "Arial",sans-serif;
+$main-font: "Oswald","Verdana",sans-serif;
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Regular-webfont.woff2") format("woff2"),
+    url("/fonts/Oswald-Regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Medium-webfont.woff2") format("woff2"),
+       url("/fonts/Oswald-Medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
 .page__body {
-   font-family: "Oswald", "Verdana", sans-serif;
+  font-family: $main-font;
 }

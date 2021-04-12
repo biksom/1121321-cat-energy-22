@@ -23,8 +23,7 @@
 }
 
 .diet__cat-slim-desc {
-  font-family: "Arial";
-  font-weight: normal;
+  font-family: $sec-font;
   font-size: 14px;
   line-height: 18px;
   color: $special-dark-grey;
@@ -49,8 +48,7 @@
 }
 
 .diet__cat-mass-desc {
-  font-family: "Arial";
-  font-weight: normal;
+  font-family: $sec-font;
   font-size: 14px;
   line-height: 18px;
   color: $special-dark-grey;

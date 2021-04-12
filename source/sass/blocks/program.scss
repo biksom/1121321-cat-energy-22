@@ -1,6 +1,4 @@
 .program__selection {
-  font-family: Oswald;
-  font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 36px;
@@ -8,7 +6,6 @@
 }
 
 .program__subtitle {
-  font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -17,7 +14,6 @@
 
 .program__form,
 .form-input {
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
@@ -25,35 +21,31 @@
 }
 
 .form-name sup{
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: $special-dark-grey;
 }
 
 .form-input {
+  font-family: $main-font;
   width: 228px;
   height: 46px;
   margin-bottom: 13px;
 }
 
 .form-input::placeholder{
-  font-family: Oswald;
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: $special-dark-grey;
 }
 
 .form-weigh sup {
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: $special-dark-grey;
 }
 
 .diet-list {
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
@@ -68,7 +60,6 @@
 }
 
 .contact-details-wrapper {
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
@@ -76,9 +67,7 @@
 }
 
 .contact-input {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: normal;
+  font-family: $main-font;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
@@ -89,14 +78,12 @@
 }
 
 .contact-mail sup{
-    font-weight: normal;
     font-size: 16px;
     line-height: 18px;
     color: $special-dark-grey;
 }
 
 .contact-phone sup {
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: $special-dark-grey;
@@ -115,14 +102,12 @@
 }
 
 .comment-input-letter {
+  font-family: $main-font;
   width: 280px;
   height: 150px;
 }
 
 .comment-input-letter::placeholder {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
@@ -130,7 +115,6 @@
 }
 
 .extra-list {
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
@@ -138,9 +122,7 @@
 }
 
 .form-button {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: normal;
+  font-family: $main-font;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
@@ -152,8 +134,7 @@
 }
 
 .stats-legend {
-  font-family: Arial;
-  font-weight: normal;
+  font-family: $sec-font;
   font-size: 14px;
   line-height: 16px;
   color: $basic-black;
