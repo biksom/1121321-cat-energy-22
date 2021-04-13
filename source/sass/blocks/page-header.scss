@@ -1,1 +1,10 @@
-.page-header {}
+.main-nav__list {
+  font-weight: 500;
+  color: $basic-black;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.main-nav__link {
+  text-decoration: none;
+}
