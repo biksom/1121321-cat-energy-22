@@ -1,6 +1,5 @@
 .catalog__title {
-  font-family: Oswald;
-  font-style: normal;
+  font-family: $main-font;
   font-weight: normal;
   font-size: 36px;
   line-height: 36px;
@@ -16,8 +15,7 @@
 }
 
 .catalog__item-table {
-  font-family: Arial;
-  font-style: normal;
+  font-family: $sec-font;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
@@ -25,8 +23,7 @@
 }
 
 .catalog__item-button {
-  font-family: Oswald;
-  font-style: normal;
+  font-family: $main-font;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -45,8 +42,7 @@
 }
 
 .catalog__item-desc {
-  font-family: Arial;
-  font-style: normal;
+  font-family: $sec-font;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
@@ -67,8 +63,7 @@
 }
 
 .products__table td {
-  font-family: Oswald;
-  font-style: normal;
+  font-family: $main-font;
   font-weight: normal;
   font-size: 16px;
   line-height: 16px;
