@@ -1,8 +1,11 @@
 // Global
 
+@import "global/fonts.scss";
 @import "global/variables.scss";
 
+
 // Bloks
+@import "blocks/page.scss";
 @import "blocks/page-header.scss";
 @import "blocks/feeding.scss";
 @import "blocks/diet.scss";
