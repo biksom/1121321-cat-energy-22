@@ -1,0 +1,141 @@
+.program__selection {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  color: $basic-black;
+}
+
+.program__subtitle {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.program__form,
+.form-input {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $special-dark-grey;
+}
+
+.form-name sup{
+  font-size: 16px;
+  line-height: 18px;
+  color: $special-dark-grey;
+}
+
+.form-input {
+  font-family: $main-font;
+  width: 228px;
+  height: 46px;
+  margin-bottom: 13px;
+}
+
+.form-input::placeholder{
+  font-size: 16px;
+  line-height: 18px;
+  color: $special-dark-grey;
+}
+
+.form-weigh sup {
+  font-size: 16px;
+  line-height: 18px;
+  color: $special-dark-grey;
+}
+
+.diet-list {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $basic-dark;
+}
+
+.contact-details {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  color: $basic-black;
+}
+
+.contact-details-wrapper {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $special-dark-grey;
+}
+
+.contact-input {
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $special-dark-grey;
+  width: 219px;
+  height: 45px;
+  margin-bottom: 14px;
+}
+
+.contact-mail sup{
+    font-size: 16px;
+    line-height: 18px;
+    color: $special-dark-grey;
+}
+
+.contact-phone sup {
+  font-size: 16px;
+  line-height: 18px;
+  color: $special-dark-grey;
+}
+
+.contact-input::placeholder {
+  color: $special-dark-grey;
+}
+
+.comment,
+.extra {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  color: $basic-black;
+}
+
+.comment-input-letter {
+  font-family: $main-font;
+  width: 280px;
+  height: 150px;
+}
+
+.comment-input-letter::placeholder {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $special-dark-grey;
+}
+
+.extra-list {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.form-button {
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $basic-white;
+  background-color: $basic-green;
+  padding: 7px 44px;
+  margin-top: 14px;
+  margin-bottom: 21px;
+}
+
+.stats-legend {
+  font-family: $sec-font;
+  font-size: 14px;
+  line-height: 16px;
+  color: $basic-black;
+}

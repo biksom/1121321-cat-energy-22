@@ -3,7 +3,6 @@
 }
 
 .example__title {
-  font-family: "Oswald";
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
@@ -13,11 +12,10 @@
 }
 
 .example__desc {
-  font-family: "Arial";
-  font-weight: normal;
+  font-family: $sec-font;
   font-size: 14px;
   line-height: 18px;
-  color: $specia-dark-grey;
+  color: $special-dark-grey;
   margin: 0;
   padding: 0;
 }
@@ -29,16 +27,13 @@
 }
 
 .example__description{
-  font-family: "Arial";
-  font-weight: normal;
+  font-family: $sec-font;
   font-size: 12px;
   line-height: 12px;
-  color: $specia-dark-grey;
+  color: $special-dark-grey;
 }
 
 .example__subtitle{
-  font-family: "Oswald";
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;

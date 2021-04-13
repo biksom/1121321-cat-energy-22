@@ -1,5 +1,4 @@
 .principle__title {
-  font-family: "Oswald";
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
@@ -7,9 +6,8 @@
 }
 
 .principle__item {
-  font-family: "Arial";
-  font-weight: normal;
+  font-family: $sec-font;
   font-size: 14px;
   line-height: 18px;
-  color: $specia-dark-grey;
+  color: $special-dark-grey;
 }
