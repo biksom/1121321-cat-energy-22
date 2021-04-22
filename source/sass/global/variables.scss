@@ -12,24 +12,9 @@ $light-grey: #eaeaea;
 
 $basic-white: #ffffff;
 
-$sec-font: "Arial",sans-serif;
-$main-font: "Oswald","Verdana",sans-serif;
+$sec-font: "Arial", sans-serif;
+$main-font: "Oswald", "Verdana", sans-serif;
 
-@font-face {
-  font-family: "Oswald";
-  src: url("/fonts/Oswald-Regular-webfont.woff2") format("woff2"),
-    url("/fonts/Oswald-Regular-webfont.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Oswald";
-  src: url("/fonts/Oswald-Medium-webfont.woff2") format("woff2"),
-       url("/fonts/Oswald-Medium-webfont.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-.page__body {
-  font-family: $main-font;
-}
+$tablet-width: 768px;
+$desktop-width: 1440px;
+$mobile-width-only: 767px;

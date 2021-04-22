@@ -1,6 +1,7 @@
 .diet__slim {
   background-color: $basic-grey;
   margin-bottom: 20px;
+  width: 280px;
 }
 
 .diet__cat-slim,
@@ -20,6 +21,7 @@
   line-height: 16px;
   text-transform: uppercase;
   color: $basic-black;
+  text-decoration: none;
 }
 
 .diet__cat-slim-desc {
@@ -31,6 +33,7 @@
 
 .diet__mass {
   background-color: $basic-grey;
+  width: 280px;
 }
 
 .diet__cat-mass-title {
@@ -45,6 +48,7 @@
   line-height: 16px;
   text-transform: uppercase;
   color: $basic-black;
+  text-decoration: none;
 }
 
 .diet__cat-mass-desc {
@@ -52,4 +56,19 @@
   font-size: 14px;
   line-height: 18px;
   color: $special-dark-grey;
+}
+
+@media (min-width: $tablet-width) {
+  .diet__slim,
+  .diet__mass {
+    width: 708px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .diet__slim,
+  .diet__mass {
+    width: 570px;
+  }
 }
