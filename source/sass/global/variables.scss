@@ -15,6 +15,6 @@ $basic-white: #ffffff;
 $sec-font: "Arial", sans-serif;
 $main-font: "Oswald", "Verdana", sans-serif;
 
-.page__body {
-  font-family: $main-font;
-}
+$tablet-width: 768px;
+$desktop-width: 1440px;
+$mobile-width-only: 767px;

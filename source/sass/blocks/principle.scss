@@ -11,3 +11,19 @@
   line-height: 18px;
   color: $special-dark-grey;
 }
+
+@media (min-width: $tablet-width) {
+  .principle__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 464px;
+    list-style: none;
+  }
+}
+
+@media (min-width:$desktop-width) {
+  .principle__list {
+    width: 1055px;
+  }
+}
