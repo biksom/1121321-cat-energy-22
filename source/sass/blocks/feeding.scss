@@ -34,3 +34,14 @@
   background-color: $basic-green;
   text-decoration: none;
 }
+
+@media (min-width: $tablet-width) {
+  .feeding__food {
+    display: none;
+  }
+
+  .feeding__title,
+  .feeding__slogan {
+   color: $basic-black;
+  }
+}
