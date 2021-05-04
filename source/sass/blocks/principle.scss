@@ -5,6 +5,18 @@
   color: $basic-black;
 }
 
+.principle__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 279px;
+}
+
+.principle__item {
+  display: flex;
+  align-items: center;
+}
+
 .principle__item {
   font-family: $sec-font;
   font-size: 14px;
@@ -12,18 +24,61 @@
   color: $special-dark-grey;
 }
 
+.principle__item-icon {
+  margin-right: 20px;
+}
+
 @media (min-width: $tablet-width) {
+  .principle__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
   .principle__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 464px;
     list-style: none;
+    counter-reset: my-awesome-counter;
+  }
+  .principle__item {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 24px;
+    counter-increment: my-awesome-counter;
+  }
+
+  .principle__item::before {
+    content: counter(my-awesome-counter) "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: $basic-grey;
+    font-family: $main-font;
+    font-size: 280px;
+    line-height: 280px;
+  }
+
+  .principle__item-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 31px;
+  }
+  .principle__item p {
+    margin: 0;
+    margin-bottom: 134px;
   }
 }
 
+
 @media (min-width:$desktop-width) {
   .principle__list {
-    width: 1055px;
+    width: 1224px;
+  }
+  .principle__item p {
+    margin: 0;
+    margin-bottom: 126px;
   }
 }

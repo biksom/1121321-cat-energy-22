@@ -1,48 +1,32 @@
 .diet__slim {
   background-color: $basic-grey;
   margin-bottom: 20px;
-  width: 280px;
+  width: 100%;
+  padding: 20px;
+}
+
+.diet__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
 }
 
 .diet__cat-slim,
 .diet__cat-mass {
-  padding-top: 24px;
+  margin-right: 19px;
 }
 
-.diet__cat-slim-title {
-  font-size: 24px;
-  line-height: 37px;
-  text-transform: uppercase;
-  color: $basic-black;
-}
 
-.diet__cat-slim-catalog {
-  font-size: 16px;
-  line-height: 16px;
-  text-transform: uppercase;
-  color: $basic-black;
-  text-decoration: none;
-}
-
-.diet__cat-slim-desc {
-  font-family: $sec-font;
-  font-size: 14px;
-  line-height: 18px;
-  color: $special-dark-grey;
-}
-
-.diet__mass {
-  background-color: $basic-grey;
-  width: 280px;
-}
-
+.diet__cat-slim-title,
 .diet__cat-mass-title {
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
   color: $basic-black;
+  margin: 0;
 }
 
+.diet__cat-slim-catalog,
 .diet__cat-mass-catalog {
   font-size: 16px;
   line-height: 16px;
@@ -51,24 +35,93 @@
   text-decoration: none;
 }
 
+.diet__cat-slim-desc,
 .diet__cat-mass-desc {
   font-family: $sec-font;
   font-size: 14px;
   line-height: 18px;
   color: $special-dark-grey;
+  padding: 0;
+  margin: 0;
 }
+
+.line {
+  height: 1px;
+  background-color: $easy-grey;
+  margin-top: 23px;
+  margin-bottom: 15px;
+}
+
+.diet__mass {
+  background-color: $basic-grey;
+  width: 100%;
+  padding: 20px;
+}
+
 
 @media (min-width: $tablet-width) {
   .diet__slim,
   .diet__mass {
+    position: relative;
     width: 708px;
+    height: 372px;
   }
+  .diet__cat-slim-title,
+  .diet__cat-mass-title {
+    padding-top: 67px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .diet__cat-slim {
+    position: absolute;
+    left: 446px;
+    top: 92px;
+    width: 200px;
+    height: 200px;
+  }
+  .diet__cat-mass {
+    position: absolute;
+    left: 412px;
+    top: 91px;
+    width: 268px;
+    height: 200px;
+  }
+  .diet__cat-slim-desc,
+  .diet__cat-mass-desc {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 48px;
+
+  }
+  .line {
+    display: none;
+  }
+  .diet__cat-slim-catalog,
+  .diet__cat-mass-catalog {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
 }
 
 @media (min-width: $desktop-width) {
+  .diet {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .diet__slim,
   .diet__mass {
+    margin: 0;
     width: 570px;
+  }
+  .diet__cat-slim {
+    width: 100px;
+    height: 106px;
+  }
+
+  .diet__cat-mass {
+    width: 134px;
+    height: 100px;
   }
 }
