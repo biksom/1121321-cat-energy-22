@@ -42,7 +42,7 @@
   outline: 0;
   padding: 0;
   cursor: pointer;
-  border-bottom: 4px solid #000;
+  border-bottom: 4px solid $basic-black;
   width: 28px;
   transition: border-bottom 1s ease-in-out;
   -webkit-transition: border-bottom 1s ease-in-out;
@@ -50,7 +50,7 @@
   &::before {
     content: "";
     display: block;
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid $basic-black;
     width: 100%;
     margin-bottom: 5px;
     transition: transform 0.5s ease-in-out;
@@ -60,7 +60,7 @@
   &::after {
     content: "";
     display: block;
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid $basic-black;
     width: 100%;
     margin-bottom: 5px;
     transition: transform 0.5s ease-in-out;
@@ -143,7 +143,4 @@
     font-size: 20px;
     line-height: 30px;
   }
-
-
 }
-
