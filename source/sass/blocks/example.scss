@@ -40,3 +40,9 @@
   text-transform: uppercase;
   color: $basic-black;
 }
+
+.example__before-tablet,
+.example__after-tablet,
+.example__after {
+  display: none;
+}

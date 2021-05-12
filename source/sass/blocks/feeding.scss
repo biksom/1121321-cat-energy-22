@@ -7,6 +7,7 @@
   background-image: url("../img/cat.png");
   background-repeat: no-repeat;
   margin-bottom: 22px;
+}
 
 .feeding__bg {
   position: absolute;
@@ -26,7 +27,6 @@
     width: 100%;
     height: 100%;
     background-color: $green;
-    }
   }
 }
 
@@ -48,7 +48,6 @@
   color: $basic-white;
   margin: 0;
   padding: 0;
-
 }
 
 .feeding__food {
@@ -75,20 +74,24 @@
     align-items: flex-start;
     text-align: left;
   }
+
   .feeding__title,
   .feeding__slogan {
     color: $basic-black;
   }
+
   .feeding__title {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 41px;
   }
+
   .feeding__slogan {
     font-size: 20px;
     line-height: 20px;
     margin-bottom: 49px;
   }
+
   .feeding__food-chicken {
     position: relative;
     bottom: 80px;
@@ -97,15 +100,18 @@
     order: 1;
     z-index: -1;
   }
+
   .feeding__bg {
     display: none;
   }
+
   .feeding__programme {
     font-size: 20px;
     line-height: 20px;
     padding: 17px 26px;
     width: auto;
   }
+
   .feeding__title,
   .feeding__slogan,
   .feeding__programme {

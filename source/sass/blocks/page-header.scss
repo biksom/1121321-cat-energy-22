@@ -1,26 +1,11 @@
 .page-header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.main-nav__list {
-  font-weight: 500;
-  text-transform: uppercase;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.main-nav__link {
-  text-decoration: none;
-  color: $basic-black;
-}
-
-.main-nav {
-  display: none;
+.page-header__logo-mobile {
+  margin-right: 58px;
 }
 
 .page-header__logo-tablet,
@@ -34,88 +19,27 @@
   height: 18px;
 }
 
-
-.main-nav__toggle {
-  display: inline-block;
-  border: 0;
-  background: none;
-  outline: 0;
-  padding: 0;
-  cursor: pointer;
-  border-bottom: 4px solid $basic-black;
-  width: 28px;
-  transition: border-bottom 1s ease-in-out;
-  -webkit-transition: border-bottom 1s ease-in-out;
-
-  &::before {
-    content: "";
-    display: block;
-    border-bottom: 4px solid $basic-black;
-    width: 100%;
-    margin-bottom: 5px;
-    transition: transform 0.5s ease-in-out;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  }
-
-  &::after {
-    content: "";
-    display: block;
-    border-bottom: 4px solid $basic-black;
-    width: 100%;
-    margin-bottom: 5px;
-    transition: transform 0.5s ease-in-out;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  }
-}
-
 @media (min-width: $tablet-width) {
   .page-header {
     width: 100%;
     padding-top: 27px;
     padding-bottom: 69px;
   }
-  .logo-link {
-    margin-right: auto;
-  }
+
   .page-header__logo-mobile,
   .page-header__logo-2 {
     display: none;
   }
+
   .page-header__logo-tablet,
   .page-header__logo-2-tablet {
     display: block;
   }
+
   .page-header__logo-tablet {
     padding-right: 12px;
   }
-  .main-nav__list {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-  }
-
 }
-
-@media (min-width: $tablet-width) {
-  .main-nav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .main-nav__toggle {
-    display: none;
-  }
-}
-
-
-@media (min-width: $tablet-width) {
-  .main-nav__list {
-    display: flex;
-    justify-content: space-between;
-    width: 440px;
-  }
-}
-
 
 @media (min-width: $desktop-width) {
   .page-header {
@@ -123,24 +47,18 @@
     padding-top: 53px;
     padding-bottom: 30px;
   }
+
   .page-header__logo-tablet,
   .page-header__logo-2-tablet {
     display: none;
   }
+
   .page-header__logo-desktop,
   .page-header__logo-2-desktop {
     display: block;
   }
+
   .page-header__logo-desktop {
     padding-right: 14px;
-  }
-  .main-nav__list {
-    display: flex;
-    justify-content: space-between;
-    width: 478px;
-  }
-  .main-nav__list {
-    font-size: 20px;
-    line-height: 30px;
   }
 }

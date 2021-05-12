@@ -9,19 +9,24 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header container">
-    <a href="#">
-      <img class="page-header__logo-mobile" src="img/logo-mobile.svg" width="33" height="38" alt="Кэт энерджи">
-      <img class="page-header__logo-tablet" src="img/logo-tablet.svg" width="60" height="50" alt="Кэт энерджи">
-      <img class="page-header__logo-desktop" src="img/logo-desktop.svg" width="70" height="59" alt="Кэт энерджи">
-    </a>
-    <a class="logo-link" href="#">
-      <img class="page-header__logo-2" src="img/logo-2.svg" height="18" alt="Кэт энерджи">
-      <img class="page-header__logo-2-tablet" src="img/logo-2-tablet.svg" height="18" alt="Кэт энерджи">
-      <img class="page-header__logo-2-desktop" src="img/logo-2-desktop.svg" height="18" alt="Кэт энерджи">
-    </a>
+  <header class="page-header">
     <nav class="main-nav">
-      <ul class="main-nav__list">
+      <div class="logo">
+        <a class="logo-img" href="#">
+          <img class="page-header__logo-mobile" src="img/logo-mobile.svg" width="33" height="38" alt="Кэт энерджи">
+          <img class="page-header__logo-tablet" src="img/logo-tablet.svg" width="60" height="50" alt="Кэт энерджи">
+          <img class="page-header__logo-desktop" src="img/logo-desktop.svg" width="70" height="59" alt="Кэт энерджи">
+        </a>
+        <a class="logo-tekst" href="#">
+          <img class="page-header__logo-2" src="img/logo-2.svg" height="18" alt="Кэт энерджи">
+          <img class="page-header__logo-2-tablet" src="img/logo-2-tablet.svg" height="18" alt="Кэт энерджи">
+          <img class="page-header__logo-2-desktop" src="img/logo-2-desktop.svg" height="18" alt="Кэт энерджи">
+        </a>
+      </div>
+      <button class="main-nav__toggle" type="button">
+        <img src="img/burger.svg" width="24" height="16" alt="Раскрывающееся меню">
+      </button>
+      <ul class="main-nav__list main-nav__list-on-main">
         <li class="main-nav__item main-nav__item--active">
           <a class="main-nav__link">
             Главная
@@ -39,7 +44,6 @@
         </li>
       </ul>
     </nav>
-    <button class="main-nav__toggle" type="button"></button>
   </header>
   <main class="page-main">
     <section class="feeding container">
@@ -54,49 +58,34 @@
     </section>
     <section class="diet container">
       <h2 class="visually-hidden">Подбор прораммы</h2>
-      <div class="diet__slim">
-        <div class="diet__wrapper">
-          <img class="diet__cat-slim" src="img/cat-slim.svg" width="50" height="50" alt="Значек программы похудения">
-          <p class="diet__cat-slim-title">Похудение</p>
-        </div>
-        <p class="diet__cat-slim-desc">Ваш кот весит больше собаки и<br> почти утратил способность лазить<br> по
+      <div class="diet__item diet__item--slim">
+        <p class="diet__item-title">Похудение</p>
+        <p class="diet__item-desc">Ваш кот весит больше собаки и<br> почти утратил способность лазить<br> по
           деревьям? Пора на диету! Cat<br> Energy Slim поможет вашему<br> питомцу сбросить лишний вес.</p>
-        <div class="line"></div>
-        <a class="diet__cat-slim-catalog" href="catalog.html">Каталог slim</a>
+        <a class="diet__item-catalog" href="catalog.html">Каталог slim</a>
       </div>
-      <div class="diet__mass">
-        <div class="diet__wrapper">
-          <img class="diet__cat-mass" src="img/cat-mass.svg" width="67" height="50" alt="Значек программы набора массы">
-          <p class="diet__cat-mass-title">Набор массы</p>
-        </div>
-        <p class="diet__cat-mass-desc">Заработать авторитет среди<br> дворовых котов и даже собак?<br> Серия Cat Energy
+      <div class="diet__item diet__item--mass">
+        <p class="diet__item-title">Набор массы</p>
+        <p class="diet__item-desc">Заработать авторитет среди<br> дворовых котов и даже собак?<br> Серия Cat Energy
           Pro поможет<br> вашему коту нарастить<br> необходимые мышцы!</p>
-        <div class="line"></div>
-        <a class="diet__cat-mass-catalog" href="catalog.html">Каталог pro</a>
+        <a class="diet__item-catalog" href="catalog.html">Каталог pro</a>
       </div>
     </section>
     <section class="principle container">
       <h2 class="principle__title">Как это работает</h2>
       <ol class="principle__list">
-        <li class="principle__item">
-          <img class="principle__item-icon" src="img/principle1.svg" width="60" height="60"
-            alt="Иконка функциоальное питание">
+        <li class="principle__item principle__item--first">
           <p>Функциональное питание<br>содержит только полезные<br>питательные
             вещества.</p>
         </li>
-        <li class="principle__item">
-          <img class="principle__item-icon" src="img/principle2.svg" width="60" height="60"
-            alt="Иконка способ приготовления">
+        <li class="principle__item principle__item--second">
           <p>Выпускается в виде порошка,<br> который нужно лишь залить<br> кипятком и готово.</p>
         </li>
-        <li class="principle__item">
-          <img class="principle__item-icon" src="img/principle3.svg" width="60" height="60"
-            alt="Иконка столовых приборов">
+        <li class="principle__item principle__item--third">
+
           <p>Замените один-два приема<br> обычной еды на наше<br> функциональное питание.</p>
         </li>
-        <li class="principle__item">
-          <img class="principle__item-icon" src="img/principle4.svg" width="60" height="60"
-            alt="Иконка изображение циферблата">
+        <li class="principle__item principle__item--fourth">
           <p>Уже через месяц<br> наслаждайтесь изменениями<br> к лучшему вашего питомца!</p>
         </li>
       </ol>
@@ -116,20 +105,26 @@
       <div class="example__sliders">
         <img class="example__before example__active" src="img/before.jpg" width="311" height="232"
           alt="Изображание кота Бориса до применения питания">
+        <img class="example__before-tablet" src="img/before-tablet.png" width="354" height="620"
+          alt="Изображание кота Бориса до применения питания">
         <img class="example__after" src="img/after.jpg" width="251" height="240"
+          alt="Изображание кота Бориса после применения питания">
+        <img class="example__after-tablet" src="img/after-tablet.png" width="354" height="607"
           alt="Изображание кота Бориса после применения питания">
       </div>
     </section>
   </main>
   <footer class="main-footer">
     <section class="cooperation">
-      <div class="container">
+      <div class="cooperation-wrapper container">
         <h2 class="visually-hidden">Сотрудничество</h2>
         <p class="cooperation__title">Приглашаем<br> к сотрудничеству<br> дилеров!</p>
         <p class="cooperation__address">ул. Большая<br> Конюшенная, д. 19/8<br> Санкт-Петербург</p>
       </div>
-      <img class="cooperation__location" src="img/location.jpg" width="320" height="362"
-        alt="Изображение адреса на карте">
+      <iframe class="cooperation__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6193253031074!2d30.321109616173572!3d59.93845866907517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1620652482058!5m2!1sru!2sru"
+        width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy" title="Офис компании по адресу
+        Большая Конюшенная ул. Санкт-Петербург"></iframe>
     </section>
     <section class="main-footer__bottom">
       <h2 class="visually-hidden">Найдите нас в социальных сетях</h2>
@@ -151,9 +146,11 @@
           </a>
         </li>
       </ul>
-      <a class="main-footer__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy <img
-          class="main-footer__link-icon" src="img/html-academy.png" width="27" height="34" alt="Иконка HTML
-          Academy"></a>
+      <div class="main-footer__link-wrapper">
+        <a class="main-footer__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <img class="main-footer__link-icon" src="img/html-academy.png" width="27" height="34" alt="Иконка HTML
+          Academy">
+      </div>
     </section>
   </footer>
 </body>
