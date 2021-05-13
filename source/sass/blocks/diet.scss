@@ -1,22 +1,32 @@
-.diet__slim {
+.diet__item {
   background-color: $basic-grey;
   margin-bottom: 20px;
-  width: 280px;
+  width: 100%;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position-y: 24px;
+  background-position-x: 22px;
 }
 
-.diet__cat-slim,
-.diet__cat-mass {
-  padding-top: 24px;
+.diet__item--slim {
+  background-image: url("../img/cat-slim.svg");
 }
 
-.diet__cat-slim-title {
+.diet__item--mass {
+  background-image: url("../img/cat-mass.svg");
+}
+
+.diet__item-title {
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
   color: $basic-black;
+  margin: 0;
+  padding-left: 80px;
+  padding-top: 10px;
 }
 
-.diet__cat-slim-catalog {
+.diet__item-catalog {
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
@@ -24,51 +34,86 @@
   text-decoration: none;
 }
 
-.diet__cat-slim-desc {
+.diet__item-desc {
   font-family: $sec-font;
   font-size: 14px;
   line-height: 18px;
   color: $special-dark-grey;
-}
-
-.diet__mass {
-  background-color: $basic-grey;
-  width: 280px;
-}
-
-.diet__cat-mass-title {
-  font-size: 24px;
-  line-height: 37px;
-  text-transform: uppercase;
-  color: $basic-black;
-}
-
-.diet__cat-mass-catalog {
-  font-size: 16px;
-  line-height: 16px;
-  text-transform: uppercase;
-  color: $basic-black;
-  text-decoration: none;
-}
-
-.diet__cat-mass-desc {
-  font-family: $sec-font;
-  font-size: 14px;
-  line-height: 18px;
-  color: $special-dark-grey;
+  padding: 0;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 23px;
+  margin-bottom: 23px;
+  border-bottom: 1px solid $easy-grey;
 }
 
 @media (min-width: $tablet-width) {
-  .diet__slim,
-  .diet__mass {
+  .diet__item {
     width: 708px;
+    height: 372px;
+    padding-left: 52px;
+  }
+
+  .diet__item--slim {
+    background-size: 200px 200px;
+    background-position-x: 446px;
+    background-position-y: 92px;
+  }
+
+  .diet__item--mass {
+    background-size: 268px 200px;
+    background-position-x: 412px;
+    background-position-y: 91px;
+  }
+
+
+  .diet__item-title {
+    padding: 0;
+    padding-top: 57px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .diet__item-desc {
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+  }
+
+  .diet__item-catalog {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .diet {
+    display: flex;
+    justify-content: space-between;
+  }
 
-  .diet__slim,
-  .diet__mass {
+  .diet__item {
     width: 570px;
+    height: auto;
+    padding-bottom: 50px;
+    background-position-x: 52px;
+    background-position-y: 41px;
+  }
+
+  .diet__item--slim {
+    background-size: 100px 106px;
+  }
+
+  .diet__item--mass {
+    background-size: 134px 100px;
+  }
+
+  .diet__item-title {
+    padding-left: 162px;
+    margin-bottom: 73px;
+  }
+
+  .diet__item-desc {
+    padding: 0;
   }
 }

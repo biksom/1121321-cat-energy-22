@@ -5,25 +5,103 @@
   color: $basic-black;
 }
 
+.principle__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 279px;
+}
+
 .principle__item {
+  display: flex;
+  align-items: center;
   font-family: $sec-font;
   font-size: 14px;
   line-height: 18px;
   color: $special-dark-grey;
+  background-repeat: no-repeat;
+  background-position-y: 10px;
+  padding-left: 80px;
+}
+
+.principle__item--first {
+  background-image: url("../img/principle1.svg");
+}
+
+.principle__item--second {
+  background-image: url("../img/principle2.svg");
+}
+
+.principle__item--third {
+  background-image: url("../img/principle3.svg");
+}
+
+.principle__item--fourth {
+  background-image: url("../img/principle4.svg");
 }
 
 @media (min-width: $tablet-width) {
+  .principle__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
   .principle__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 464px;
+    width: 600px;
     list-style: none;
+    counter-reset: my-awesome-counter;
+  }
+
+  .principle__item {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 24px;
+    counter-increment: my-awesome-counter;
+    padding-left: 0;
+    margin-bottom: 150px;
+  }
+
+  .principle__item::before {
+    content: counter(my-awesome-counter) "";
+    position: absolute;
+    top: -28px;
+    right: -34px;
+    color: $basic-grey;
+    font-family: $main-font;
+    font-size: 280px;
+    line-height: 280px;
+    z-index: -1;
+  }
+
+  .principle__item--first {
+    background-image: url("../img/principle-tablet-1.svg");
+  }
+
+  .principle__item--second {
+    background-image: url("../img/principle-tablet-2.svg");
+  }
+
+  .principle__item--third {
+    background-image: url("../img/principle-tablet-3.svg");
+  }
+
+  .principle__item--fourth {
+    background-image: url("../img/principle-tablet-4.svg");
+  }
+
+  .principle__item p {
+    margin: 0;
+    padding-top: 120px;
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .principle__list {
-    width: 1055px;
+    width: 1224px;
   }
 }

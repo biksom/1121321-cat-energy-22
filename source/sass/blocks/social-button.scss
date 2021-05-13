@@ -1,0 +1,30 @@
+.social-button-vk::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 13px;
+  background-image: url("../img/vk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-button-inst::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/inst.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-button-fb::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  background-image: url("../img/fb.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

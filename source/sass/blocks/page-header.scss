@@ -1,67 +1,64 @@
-.main-nav__list {
-  font-weight: 500;
-  text-transform: uppercase;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.page-header {
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.main-nav__link {
-  text-decoration: none;
-  color: $basic-black;
+.page-header__logo-mobile {
+  margin-right: 58px;
 }
 
-.main-nav {
-  display: flex;
+.page-header__logo-tablet,
+.page-header__logo-2-tablet,
+.page-header__logo-desktop,
+.page-header__logo-2-desktop {
+  display: none;
 }
 
-.page-header__logo {
-  height: 66px;
-}
-
-@media (min-width: $tablet-width) {
-  .page-header__logo {
-    height: 144px;
-  }
+.page-header__logo-2 {
+  height: 18px;
 }
 
 @media (min-width: $tablet-width) {
-  .main-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 780px;
-    margin: 0 auto;
+  .page-header {
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 69px;
   }
 
-  .main-nav__toggle {
+  .page-header__logo-mobile,
+  .page-header__logo-2 {
     display: none;
   }
-}
 
-@media (min-width: $tablet-width) {
-  .main-nav__list {
-    display: flex;
-    justify-content: space-between;
-    width: 440px;
+  .page-header__logo-tablet,
+  .page-header__logo-2-tablet {
+    display: block;
+  }
+
+  .page-header__logo-tablet {
+    padding-right: 12px;
   }
 }
 
-
-@media (min-width:$desktop-width) {
-  .page-header__logo {
-    height: 142px;
+@media (min-width: $desktop-width) {
+  .page-header {
+    width: 100%;
+    padding-top: 53px;
+    padding-bottom: 30px;
   }
 
-}
-
-@media (min-width:$desktop-width) {
-  .main-nav {
-    width: 1220px;
+  .page-header__logo-tablet,
+  .page-header__logo-2-tablet {
+    display: none;
   }
-}
 
-@media (min-width:$desktop-width) {
-  .main-nav__list {
-    width: 478px;
+  .page-header__logo-desktop,
+  .page-header__logo-2-desktop {
+    display: block;
+  }
+
+  .page-header__logo-desktop {
+    padding-right: 14px;
   }
 }

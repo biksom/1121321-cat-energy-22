@@ -10,11 +10,21 @@
 <body class="page__body">
   <header class="page-header">
     <nav class="main-nav">
-      <a class="page-header__logo" href="index.html">
-        <img class="page-header__logo-mobile" src="img/logo-mobile.svg" width="33" height="38" alt="Кэт энерджи">
-        <img class="page-header__logo-2" src="img/logo-2.svg" width="101" height="18" alt="Кэт энерджи">
-      </a>
-      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="logo">
+        <a class="logo-img" href="index.html">
+          <img class="page-header__logo-mobile" src="img/logo-mobile.svg" width="33" height="38" alt="Кэт энерджи">
+          <img class="page-header__logo-tablet" src="img/logo-tablet.svg" width="60" height="50" alt="Кэт энерджи">
+          <img class="page-header__logo-desktop" src="img/logo-desktop.svg" width="70" height="59" alt="Кэт энерджи">
+        </a>
+        <a class="logo-tekst" href="index.html">
+          <img class="page-header__logo-2" src="img/logo-2.svg" height="18" alt="Кэт энерджи">
+          <img class="page-header__logo-2-tablet" src="img/logo-2-tablet.svg" height="18" alt="Кэт энерджи">
+          <img class="page-header__logo-2-desktop" src="img/logo-2-desktop.svg" height="18" alt="Кэт энерджи">
+        </a>
+      </div>
+      <button class="main-nav__toggle" type="button">
+        <img src="img/burger.svg" width="24" height="16" alt="Раскрывающееся меню">
+      </button>
       <ul class="main-nav__list">
         <li class="main-nav__item">
           <a class="main-nav__link" href="index.html">
@@ -33,6 +43,7 @@
         </li>
       </ul>
     </nav>
+    <button class="main-nav__toggle" type="button"></button>
   </header>
   <main class=" main-page">
     <section class="program">
@@ -124,14 +135,14 @@
       <h2 class="visually-hidden">Сотрудничество</h2>
       <p class="cooperation__title">Приглашаем<br> к сотрудничеству<br> дилеров!</p>
       <p class="cooperation__address">ул. Большая<br> Конюшенная, д. 19/8<br> Санкт-Петербург</p>
-      <img class="cooperation__location" src="img/location.jpg" width="320" height="362"
-        alt="Изображение адреса на карте">
+      <iframe class="cooperation__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6193253031074!2d30.321109616173572!3d59.93845866907517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1620652482058!5m2!1sru!2sru"
+        width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy" title="Офис компании по адресу
+        Большая Конюшенная ул. Санкт-Петербург"></iframe>
     </section>
     <section class="main-footer__bottom">
       <h2 class="visually-hidden">Найдите нас в социальных сетях</h2>
-      <a class="main-footer_link-logo" href="index.html">
-        <img class="main-footer__logo" src="img/logo-footer.svg" width="128" height="24" alt="Кэт энерджи">
-      </a>
+      <img class="main-footer__logo" src="img/logo-footer.svg" width="128" height="24" alt="Кэт энерджи">
       <ul class="main-footer__social-list social">
         <li class="main-footer__social-item social__item">
           <a class="social-button-vk" href="#">
@@ -149,9 +160,11 @@
           </a>
         </li>
       </ul>
-      <a class="main-footer__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy <img
-          class="main-footer__link-icon" src="img/html-academy.png" width="27" height="34" alt="Иконка HTML
-          Academy"></a>
+      <div class="main-footer__link-wrapper">
+        <a class="main-footer__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <img class="main-footer__link-icon" src="img/html-academy.png" width="27" height="34" alt="Иконка HTML
+          Academy">
+      </div>
     </section>
   </footer>
 </body>

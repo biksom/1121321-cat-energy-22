@@ -1,12 +1,13 @@
 // Global
-
-@import "global/fonts.scss";
 @import "global/variables.scss";
-
+@import "global/global.scss";
+@import "global/fonts.scss";
 
 // Bloks
+@import "blocks/main-nav.scss";
 @import "blocks/page.scss";
 @import "blocks/page-header.scss";
+@import "blocks/logo.scss";
 @import "blocks/feeding.scss";
 @import "blocks/diet.scss";
 @import "blocks/example.scss";
@@ -17,3 +18,4 @@
 @import "blocks/program.scss";
 @import "blocks/cooperation-form.scss";
 @import "blocks/catalog.scss";
+@import "blocks/social-button.scss";
